@@ -1,0 +1,22 @@
+#title{
+	margin: 0 100px 0 100px;
+	height: auto;
+	width: auto;
+}
+#title #logo{
+	height:auto;
+	width: auto;
+}
+.link-logo{
+	float: right;
+	margin-left:20px;
+}
+
+.link-logo .link-a{
+	margin-top: 40px;
+}
+
+.link-logo .link-a img{
+	height:25px;
+	width: 25px;
+}
