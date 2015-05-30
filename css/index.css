@@ -4,9 +4,10 @@
 	width: auto;
 }
 #title #logo{
-	height:auto;
+	height:70px;
 	width: auto;
 }
+
 .link-logo{
 	float: right;
 	margin-left:20px;
