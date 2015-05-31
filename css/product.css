@@ -117,7 +117,7 @@
 	margin-left: 10px;
 }
 
-@media screen and (min-width: 1220px){
+@media screen and (min-width: 800px){
 	#container #content{
 		float:left;
 		width:75%;
@@ -125,5 +125,14 @@
 	#container #list-right{
 		float:left;
 		width: 25%;
+	}
+}
+
+@media screen and (max-width: 799px){
+	#container #content{
+		width:100%;
+	}
+	#container #list-right{
+		width: 100%;
 	}
 }
