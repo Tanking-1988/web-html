@@ -70,7 +70,7 @@
 	cursor:pointer;
 	font-weight:bold;
 	font-size:14px;
-	color:#999;
+	color:#aaa;
 	line-height:28px;
 	padding-left:10px;
 	background:url(../images/left.ico) 
@@ -78,7 +78,7 @@
 	background-position:95% 50%
 }
 .subNav:hover{
-	color:#277fc2;
+	color:#8fd237;
 }
 .currentDd{
 	color:#277fc2
