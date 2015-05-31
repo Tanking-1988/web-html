@@ -12,7 +12,6 @@
 	<link rel="stylesheet" href="../css/list-style.css" />
 	<link rel="stylesheet" href="../css/qrcode.css" />
 	<link rel="stylesheet" href="../css/product.css" />
-	<link rel="stylesheet" href="../css/menu-css.css" />
 
 	<style type="text/css">
 		body {
@@ -50,10 +49,10 @@
 		<div class="list" id="navlist">
 			<ul id="navfouce">
 				<li><a href="../index.html">首页</a></li>   
-				<li><a href="aboutUS.html">关于我们</a></li>  
+				<li><a href="aboutUS.html">关于我们</a></li>   
 				<li><a href="#">产品中心</a></li>
 				<li><a href="antCiounterfeit.html">防伪验证</a></li>
-				<li><a href="news.html">电子烟资讯</a></li>     
+				<li><a href="news.html">电子烟资讯</a></li>   
 				<li><a href="contact.html">联系我们</a></li>
 			</ul>
 		</div>
@@ -69,7 +68,7 @@
 						<h3 class="mcate-item-hd"><span>ITASTE 系列-新宜康产品</span></h3>
 						<p class="mcate-item-bd">
 							<a href="iTasteCLK.html">iTaste CLK!</a>
-							<a href="iTasteCLK1280.html">iTaste CLK 1280</a>
+							<a href="http://www.jq22.com">男装</a>
 							<a href="http://www.jq22.com">内衣</a>
 							<a href="http://www.jq22.com">家居服</a>
 							<a href="http://www.jq22.com">配件</a>
@@ -191,7 +190,6 @@
 	</div>
 </div>
 <div id='container'>
-<div id='content'>
 <h2>输入标题</h2>
 <HR width="100%" color=#111 SIZE=1 />
 <div class='put-image'>
@@ -206,40 +204,6 @@ sjdafkjkdsa kjf kjfdsaj j j</p>
 	在此处填写主要内容。回车用<br>
 	现在已经换行
 </p>
-</div>
-<div id="list-right">
-		<div class="subNavBox">
-        	<div class="subNav currentDd currentDt">ITASTE 系列</div>
-            <ul class="navContent " style="display:block">
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-            </ul>
-        	<div class="subNav">关于我们</div>
-            <ul class="navContent">
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-            </ul>
-        	<div class="subNav">业务系统</div>
-            <ul class="navContent">
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-            </ul>
-        	<div class="subNav">招商加盟</div>
-            <ul class="navContent">
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-                	<li><a href="#">添加新闻</a></li>
-                	<li><a href="#">新闻管理</a></li>
-            </ul>
-        </div>
-</div>
-<div class='clear'></div>
 </div>
 
 <div id='panel'>
@@ -263,12 +227,6 @@ sjdafkjkdsa kjf kjfdsaj j j</p>
 
 (function(){
 	$('#qrcode-container').hide();
-
-	$(".subNav").click(function(){
-		$(this).toggleClass("currentDd").siblings(".subNav").removeClass("currentDd")
-		$(this).toggleClass("currentDt").siblings(".subNav").removeClass("currentDt")
-		$(this).next(".navContent").slideToggle(300).siblings(".navContent").slideUp(500)
-	});	
 
 	var time = null;
 	var list = $("#navlist");
