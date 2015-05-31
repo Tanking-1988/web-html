@@ -24,7 +24,7 @@
 	width: auto;
 	height: auto;
 } 
-#right-div .put-image img{
+.right-div #image-change img{
 	width:90%; 
 }
 #container hr{
@@ -105,7 +105,19 @@
 	background-color:#277fc2
 }
 
-@media screen and (min-width: 1220px){
+#put-iframe{
+	background: #ddd;
+	margin: 20px;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+#put-iframe h3{
+	color: black;
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 800px){
 	#container #content{
 		float:left;
 		width:75%;
@@ -113,5 +125,14 @@
 	#container #list-right{
 		float:left;
 		width: 25%;
+	}
+}
+
+@media screen and (max-width: 799px){
+	#container #content{
+		width:100%;
+	}
+	#container #list-right{
+		width: 100%;
 	}
 }
