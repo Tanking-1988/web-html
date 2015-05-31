@@ -110,22 +110,22 @@
 }
 
 @media screen and (min-width: 800px){
-#index-content #left-div{
+#left-div{
 	float: left;
 	width:50%;
 }
-#index-content #right-div{
+#right-div{
 	float: left;
 	width:50%;
 }
 }
 
 @media screen and (max-width: 799px){
-#index-content #left-div{
+#left-div{
 	width:100%;
 	margin: 20px 0 20px 0;
 }
-#index-content #right-div{
+#right-div{
 	width:100%;
 	margin: 20px 0 20px 0;
 }
