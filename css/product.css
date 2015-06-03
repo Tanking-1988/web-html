@@ -24,8 +24,9 @@
 	width: auto;
 	height: auto;
 } 
-.right-div #image-change img{
+#image-change img{
 	width:90%; 
+	max-height:700px;
 }
 #container hr{
 	margin: 10px 20px 10px 0;
